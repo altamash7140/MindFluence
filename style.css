@@ -1,0 +1,291 @@
+/* .navbar{
+  background-color: #151525;
+  width: 100%;
+}
+
+.about-section{
+  background-color: #151525;
+  width: 100%;
+  height: 700px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+  
+} */
+/* .header{
+  margin-top: 4px;
+  height: 35px;
+}
+
+.paragraph{
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff; 
+}
+
+.services{
+  background-color: #151525;
+  height: 600px;
+ 
+} */
+/* services */
+/* .services{
+  background-color: #1E2A5E;
+  height: 700px;
+}
+.box-container{
+  background-color: #1E2A5E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 550px;
+  
+}
+.box{
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  background-color:  #66BAF1;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+ 
+
+}
+.btnn{
+  width: 6rem;
+  border-radius: 10px;
+  background-color:  #3382D1;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.service-para{
+  
+  padding: 10px;
+  color: #fff;
+}
+.service-header{
+  padding-left: 10px;
+  color: #fff;
+}
+i{
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  cursor: pointer;
+} */
+
+/* contactUs */
+
+/* .contact-container{
+  
+  background-color: #151525;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+.contact-pic{
+  margin-top: 40px;
+  width: 700px;
+  height: 700px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.contact-header{
+  padding-left: 40px;
+}
+#Name{
+  width: 500px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+#Email{
+  width: 500px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.form{
+  display: block;
+}
+.message{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sendbtn{
+  width: 100px;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+} */
+/* // reviews // */
+
+/* .review-container{
+  background-color: #fff;
+  height: 200px;
+} */
+
+/* Navbar */
+.navbar {
+  background-color: #151525;
+  width: 100%;
+}
+
+/* About Section */
+.about-section {
+  background-color: #151525;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.header {
+  height: auto;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Services */
+.services {
+  background-color: #1E2A5E;
+  padding: 20px 0;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: #66BAF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.btnn {
+  border-radius: 10px;
+  background-color: #3382D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.service-para {
+  padding: 10px;
+  color: #fff;
+}
+
+.service-header {
+  padding-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+i {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Contact Us */
+.contact-container {
+  background-color: #151525;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contact-pic {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact-info-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #1E2A5E;
+  border-radius: 10px;
+}
+
+.contact-header {
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+#Name, #Email, .message {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sendbtn {
+  width: 100%;
+  max-width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+  margin-top: 20px;
+}
+/* Reviews */
+.review-container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-pic {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-info-box {
+    width: 100%;
+    padding: 20px;
+  }
+}
